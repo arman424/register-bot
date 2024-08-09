@@ -4,7 +4,6 @@ namespace App\Services;
 
 use App\Contracts\HttpContract;
 use App\Contracts\MailParserContract;
-use GuzzleHttp\Exception\GuzzleException;
 
 class GuerrillaMailService implements MailParserContract
 {
